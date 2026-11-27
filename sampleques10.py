@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel(r"C:\Users\ASUS\Downloads\employee_data.xlsx")
+df = pd.read_excel("employee_data.xlsx")
 
 print("First five rows:")
 print(df.head())
